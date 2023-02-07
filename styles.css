@@ -1,0 +1,11 @@
+body{
+    color: grey;
+}
+.header{
+ background-color: grey;   
+ height: 30%;
+}
+.header-logo{
+    background-color: gray;
+    height: 4%;
+}

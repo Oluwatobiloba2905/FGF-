@@ -1,11 +1,24 @@
 body{
-    color: grey;
+  background-color: rgb(39,39,36);
 }
 .header{
  background-color: grey;   
- height: 30%;
+ height: 3%;
 }
 .header-logo{
-    background-color: gray;
+    /* background-color: gray; */
     height: 4%;
+    display: flex;
+}
+.logo{
+    height: 50px;
+    margin-right: 40%;
+
+
+}
+.words{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-size-adjust: 90px;
 }

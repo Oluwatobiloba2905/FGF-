@@ -2900,7 +2900,17 @@ a {
 
 
 
- .account{
+.account {
   text-align: center;
-  margin-top: 20px;
-} 
+  /* margin-top: 20px; */
+  font-size: 20px;
+  color: #ca2020;
+  align-self: center;
+
+
+
+}
+
+.color-section {
+  background-color: #212529;
+}

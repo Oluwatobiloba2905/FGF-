@@ -2925,3 +2925,30 @@ a {
   text-decoration: underline;
   color: #fff;
 } */
+
+
+.text-container9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  /* Added */
+  text-align: center;
+  /* Added */
+}
+
+#long-text9 {
+  width: 80%;
+  font-size: 18px;
+  white-space: pre-wrap;
+  margin: 0 auto;
+  /* Added */
+}
+
+.vow {
+  text-align: center;
+  color: #ca2020;
+  font-size: 40px;
+  font-weight: bold;
+}

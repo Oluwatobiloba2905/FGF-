@@ -367,3 +367,8 @@
  	});
 
  });
+
+//  const longText = "This is a long text that needs to be displayed centrally line by line without adding a button. It should adjust its width and height to be responsive.";
+
+// const longTextContainer = document.getElementById("long-text9");
+// longTextContainer.textContent = longText9;

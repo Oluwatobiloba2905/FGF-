@@ -305,7 +305,7 @@
 
  	//     });
  	//   };
- 	OnePageNavigation();
+ 	//  	OnePageNavigation();
 
  	var siteScroll = function () {
 
@@ -368,7 +368,13 @@
 
  });
 
-//  const longText = "This is a long text that needs to be displayed centrally line by line without adding a button. It should adjust its width and height to be responsive.";
 
-// const longTextContainer = document.getElementById("long-text9");
-// longTextContainer.textContent = longText9;
+
+
+ // Apply animation to leaders on page load
+ document.addEventListener("DOMContentLoaded", function () {
+ 	const leaders = document.querySelectorAll(".leader");
+ 	leaders.forEach((leader, index) => {
+ 		leader.style.animation = `fadeIn 0.5s ease ${index * 0.2}s`;
+ 	});
+ });

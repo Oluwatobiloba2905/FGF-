@@ -3005,6 +3005,13 @@ a {
   border-radius: 8px;
 }
 
+.leader-img1 {
+  width: 160px;
+  height: 120px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
 .leader-content {
   flex: 1;
 }
@@ -3040,6 +3047,10 @@ p {
   }
 
   .leader-img {
+    margin: 0 auto 10px;
+  }
+
+  .leader-img1 {
     margin: 0 auto 10px;
   }
 }

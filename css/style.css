@@ -3054,3 +3054,70 @@ p {
     margin: 0 auto 10px;
   }
 }
+
+.main {
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+}
+
+.vows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vow {
+  margin: 10px 0;
+}
+
+.vow-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+
+}
+
+.vow-text2 {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  /* align-self: center; */
+  width: 350px;
+  margin: 0 auto;
+
+}
+
+
+/* Animation */
+
+.vow {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile responsiveness
+
+@media (max-width: 576px) {
+  .vows {
+    flex-direction: row;
+  }
+
+  .vow {
+    flex-grow: 1;
+  }
+
+  .vow-text {
+    max-width: 100%;
+    
+  }
+} */

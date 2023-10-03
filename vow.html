@@ -1,90 +1,540 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+    <title>FGF VOW || We are an inclusive church committed to Christ and His word. We are dedicated to
+        Restoring the ancient Landmarks, Lifting up a standard and raising kingdom builders. Our church is not
+        just a house of worship. At its core are the members and believers that come together to practice God's
+        word, celebrate His love and extend His gifts to all.
+    </title>
 
-        body {
-            background-color: #f2f2f2;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
-        }
-
-        h1 {
-            color: #333;
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            color: #777;
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-top: 16px solid #3498db;
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            animation: spin 2s linear infinite;
-            margin: 0 auto;
-            margin-bottom: 30px;
-        }
-
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
 </head>
 
-<body>
-    <div class="loader"></div>
-    <h1>Under Construction</h1>
-    <p>We are working hard to bring you something amazing.</p>
-    <a href="index.html">
-        <p>Back to Home </p>
-    </a>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-    <script>
-        // Optional countdown timer
-        const countdownDate = new Date("2023-07-01").getTime();
 
-        const countdown = setInterval(() => {
-            const now = new Date().getTime();
-            const distance = countdownDate - now;
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
 
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            //         document.body.innerHTML = `
-            //     <p>Launching in: ${days}d ${hours}h ${minutes}m ${seconds}s</p>
-            //   `;
+    <body class="site-wrap">
 
-            if (distance < 0) {
-                clearInterval(countdown);
-                document.body.removeChild(document.querySelector('.loader'));
-            }
-        }, 1000);
-    </script>
-</body>
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-6 col-xl-2">
+                        <a href="#"> <img src="images/logo2.png" class="mb-0 site-logo"><a href="index.html"
+                                class="h2 mb-0"><span class="text-primary"></span> </a>
+                            </img>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-10 d-none d-xl-block">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+
+                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                                <li><a href="index.html" class="nav-link">Home</a></li>
+
+                                <li id="live"><a href="index.html#live-section" class="nav-link">LIVE</a></li>
+                                <li><a href="index.html#about-section" class="nav-link">About</a></li>
+                                <li><a href="index.html#vision-section" class="nav-link">Vision</a></li>
+
+                                <li><a href="index.html#give-section" class="nav-link">Give</a></li>
+                                <!-- <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li> -->
+                                <li><a href="index.html#services-section" class="nav-link">Join Us</a></li>
+                                <li class="has-children">
+                                    <a href="" class="nav-link">More</a>
+                                    <ul class="dropdown">
+                                        <li><a href="index.html#contact-section" class="nav-link">Contact Us</a></li>
+                                        <li><a href="index.html#testimonials-section" class="nav-link">Testimonies</a>
+                                        </li>
+                                        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                                        <li><a href="vow.html" class="nav-link"> FGF Vow</a></li>
+                                        <li><a href="#" class="nav-link"> Leadership</a></li>
+
+                                        <!-- <li class="has-children">
+                      <a href="#">More Links</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li> -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
+                            href="#" class="site-menu-toggle js-menu-toggle float-right"><span
+                                class="icon-menu h3"></span></a></div>
+
+                </div>
+            </div>
+
+        </header>
+
+
+        <div class="site-blocks-cover overlay" style="background-image: url(images/44.jpg);" data-aos="fade"
+            id="home-section">
+
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+
+
+                    <div class="col-md-8 mt-lg-5 text-center">
+                        <h1 class="text-uppercase" data-aos="fade-up">FGF VOW</h1>
+                        <p>Kingdom Confessions </p>
+
+                        <div data-aos="fade-up" data-aos-delay="100">
+                            <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#live-section" class="mouse smoothscroll">
+                <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </span>
+            </a>
+        </div>
+
+
+        <main class="main">
+            <strong class="vow-text2">My Vow As a Friend of God </strong>
+
+            <div class="vows">
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>I AM A FRIEND OF GOD <br>
+
+                            Restoring the ancient landmarks, <br>
+
+                            lifting up a standard, <br>
+
+                            Building God's kingdom, <br>
+
+                            I am a diligent student of the bible, <br>
+
+                            I pray daily <br>
+
+                            I fast regularly, <br>
+
+                            I am holy and dependable, <br>
+
+                            Heaven is proud to own me, <br>
+
+                            The earth is grateful to have me, <br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p> I AM A FRIEND OF GOD <br>
+
+
+                            Married,<br>
+
+                            I am totally faithful to my spouse,<br>
+
+                            Single, I live totaly celibate, <br>
+
+                            Sex is god gift, <br>
+
+                            Hallowed solely for a man and his wife, <br> </p>
+                    </div>
+                </div>
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>I AM A FRIEND OF GOD <br>
+
+                            I can be trusted with money, <br>
+
+                            I hate bribes, <br>
+
+                            I don't give, <br>
+
+                            I don't take <br>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>I AM A FRIEND OF GOD, <br>
+
+                            I am uncompromising righteous, <br>
+
+                            No amount of money, <br>
+
+                            No relationship, <br>
+
+                            No opportunity, <br>
+
+                            Nothing at all, <br>
+
+                            Nothing at all, <br>
+
+                            Nothing at all, <br>
+
+                            Compress with God love and provision, <br>
+
+                            I willingly give all up, <br>
+
+                            If having it will cause me to sin, <br>
+
+                            I willingly give all up, <br>
+
+                            If having it will cause me to sin, <br>
+
+                            I willingly give all up, <br>
+
+                            If having it will cause me to sin, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>I AM A FRIEND OF GOD <br>
+
+                            I am proud and grateful to be a Nigerian, <br>
+
+                            I am Nigerian by Destiny, not by accident, <br>
+
+                            I am a solution for my nation, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>I AM A FRIEND OF GOD <br>
+
+                            I am exceptionally productive, <br>
+
+                            I am not a daydreamer, <br>
+
+                            I am diligent, <br>
+
+                            I am committed to excellence, <br>
+
+                            I access divine wisdom on my job, <br>
+
+                            Operating well beyond my talents, <br>
+
+                            I execute divine power, <br>
+
+                            achieving well beyond my ability, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>​
+
+                            I AM A FRIEND OF GOD <br>
+
+                            My school, <br>
+
+                            Vocation, <br>
+
+                            Employment or business, <br>
+
+                            Is my primary mission field, <br>
+
+                            I use divine wisdom and divine power, <br>
+
+                            To make God visible and relevant at my duty post, <br>
+
+                            Thus attracting and winning souls at my duty post, <br>
+
+                            I am a compulsive soul winner, <br>
+
+                            I am a valuable Kingdom resource, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>​
+
+                            I AM A FRIEND OF GOD <br>
+
+                            I love family, <br>
+
+                            Friends, <br>
+
+                            Colleagues, <br>
+
+                            Neighbor's and acquaintances, <br>
+
+                            The way God loves them, <br>
+
+                            I am very patient and kind, <br>
+
+                            I am never jealous or envious, <br>
+
+                            I am never boastful or proud, <br>
+
+                            I am never haughty or selfish or rude, <br>
+
+                            I do not insist on my own way, <br>
+
+                            I am not irritable or touchy, <br>
+
+                            I do not hold unto grudges, <br>
+
+                            And will not hold onto a suffered wrong, <br>
+
+                            I am never glad about injustice, <br>
+
+                            But I rejoice whenever truth and justice is served, <br>
+
+                            Yet nor neglecting the place of mercy, <br>
+
+                            I am loyal to friends even at great cost, <br>
+
+                            I believe in my friends, <br>
+
+                            I always expect the best of them, <br>
+
+                            Acknowledging and rejoicing, <br>
+
+                            In their strengths, <br>
+
+                            And trusting God to strengthen them to overcome their weakness, <br>
+
+                            being mindful of my weakness, <br>
+
+                            And trusting God to give me victory over them, <br>
+
+                            And I always Stand my ground in defending them as God will, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>​
+                            I AM A FRIEND OF GOD <br>
+
+                            I am prosperous, <br>
+
+                            I pay my tithes dutifully and promptly, <br>
+
+                            I am generous in giving but frugal in consumption, <br>
+
+                            I am a diligent and habitual saver, <br>
+                            ​
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>​
+                            I AM A FRIEND OF GOD <br>
+
+                            I will not miss the rapture, <br>
+
+                            I will make heaven, <br>
+
+                            I will not miss the rapture, <br>
+
+                            I will make heaven, <br>
+
+                            I will not miss the rapture, <br>
+
+                            I will make heaven, <br>
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="vow">
+                    <div class="vow-text">
+                        <p>​
+                            I AM A FRIEND OF GOD <br>
+
+                            Restoring the ancient landmarks, <br>
+
+                            Lifting up a standard, <br>
+
+                            Building God kingdom, <br>
+
+                            I am a diligent student of the bible, <br>
+
+                            Heaven is proud to own me, <br>
+
+                            The earth is grateful to have me. <br>
+
+                            AMEN
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            </div>
+        </main>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="footer-heading mb-4">About Us</h2>
+                                <p>Our mission is to serve God, through encouraging and teaching them those who are
+                                    oppressed and down
+                                    casted both physically and spiritually. </p>
+                            </div>
+                            <div class="col-md-3 ml-auto">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+                                    <!-- <li><a href="#vision-s" class="smoothscroll">Testimonials</a></li> -->
+                                    <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                                    <li><a href="#services-section" class="smoothscroll">Chuch Sessions</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 class="footer-heading mb-4">Follow Us</h2>
+                                <a href="https://www.facebook.com/FriendsOfGodFellowship/" class="pl-0 pr-3"><span
+                                        class="icon-facebook"></span></a>
+                                <a href="https://twitter.com/FgfOfficiall" class="pl-3 pr-3"><span
+                                        class="icon-twitter"></span></a>
+                                <a href="https://www.youtube.com/@friendsofgodfellowship7755" class="pl-3 pr-3"><span
+                                        class="icon-youtube-play"></span></a>
+                                <a href="https://www.instagram.com/fgfofficiall/" class="pl-3 pr-3"><span
+                                        class="icon-instagram"></span></a>
+                                <a href="https://soundcloud.com/fgfofficiall" class="pl-3 pr-3"><span
+                                        class="icon-soundcloud"></span></a>
+
+
+
+                                <!-- <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="col-md-3">
+                  <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+                  <form action="#" method="post" class="footer-subscribe">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control border-secondary text-white bg-transparent"
+                        placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+                      </div>
+                    </div>
+                  </form>
+                </div> -->
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <div class="border-top pt-5">
+                            <p>
+                                FGF &copy;<script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved |<i class="icon-heart text-danger" aria-hidden="true"></i>
+                                Developed by <a href="https://bit.ly/Alongetobias" target="_blank"
+                                    style="color: rgb(202,32,32);">Tobias</a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        </div> <!-- .site-wrap -->
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+
+
+        <script src="js/main.js"></script>
+
+    </body>
 
 </html>

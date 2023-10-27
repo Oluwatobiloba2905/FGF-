@@ -1,1 +1,0 @@
-[20-May-2021 13:32:40 UTC] PHP Warning:  Use of undefined constant WP_CONTENT_DIR - assumed 'WP_CONTENT_DIR' (this will throw an Error in a future version of PHP) in /home/jfriends/public_html/wp-includes/load.php on line 115
